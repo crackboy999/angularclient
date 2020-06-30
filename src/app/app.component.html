@@ -528,7 +528,13 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-
-
 <router-outlet></router-outlet>
+
+<hr>
+
+<div *ngFor="let post of posts" >
+<h1>{{post.id}}</h1>
+<h3>{{post.nombre}}</h3>
+<h3>{{post.tipo}}</h3>
+
+</div>
