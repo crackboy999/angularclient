@@ -13,7 +13,7 @@ export class DataService {
    }
 
    getData(){
-    return this.http.get<Post[]>('https://myappnoderm.herokuapp.com/usuarios');
+    return this.http.get<Post[]>('https://apinodeserver.herokuapp.com/usuarios');
    }
 }
 
